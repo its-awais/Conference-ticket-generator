@@ -1,0 +1,46 @@
+:root{
+    --Orange-button-bc: hsl(7, 71%, 60%) /*bc for background */
+}
+
+h1{
+    word-spacing: 5px;
+    font-size: 1.6rem;
+}
+.input-size{
+    height : 2.8rem;
+    font-size: 1.1rem;
+    font-weight: 400 !important;
+}
+#button{
+    width : 100%;
+    background-color: var(--Orange-button-bc);
+    color : black;
+    font-weight: 700;
+    margin-bottom : 1.3rem;
+}
+.dashed-border{
+    width : 100%;
+    border: 1px dashed;
+    cursor : pointer;
+    border-radius:1rem;
+    padding : 5px;
+    margin-top: 3px;
+}
+.text-muted{
+    color : white;
+}
+.red{
+    color : red;
+}
+@media(max-width: 465px){
+h1{
+    font-size : 1rem;
+    font-weight: 500;
+    ;
+}
+}
+@media(max-width: 465px){
+    h1{
+        font-size: 1.4rem;
+    }
+}

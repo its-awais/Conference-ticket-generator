@@ -1,0 +1,51 @@
+:root{
+    --Orange-500: hsl(7, 88%, 67%)
+}
+.text-bold{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.ticket-wrapper{
+    position: relative;
+    width : 550px;
+    height: auto;
+}
+.absolute-ticket{
+    position: absolute;
+  top : 30px;
+  left : 30px;
+}
+.wrap-ticket{
+    width : 100%;
+    height : auto;
+
+}
+.image1{
+    width : 60px;
+    height : 60px;
+    border-radius : 0.5rem;
+}
+.mt{
+    margin-top : 3rem;
+}
+
+@media(max-width : 560px){
+    .ticket-wrapper{
+        width : 450px;
+    }
+    .image1{
+        width : 40px;
+        height : 40px;
+    }
+.pink{
+    color: var(--Orange-500);
+}
+}
+@media(max-width : 476px){
+    .ticket-wrapper{
+        width : 350px;
+    }
+    .mt{
+        margin-top: 1rem;
+    }
+}
