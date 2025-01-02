@@ -16,9 +16,9 @@ function App() {
   )
   return (
     <>
-    <div className='Coding-Conf'>
+    <main className='Coding-Conf'>
     <RouterProvider router={router}/>
-    </div>
+    </main>
     </>
   )
 }
